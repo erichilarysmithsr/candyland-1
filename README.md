@@ -1,4 +1,6 @@
 candyland
 =========
 
-My custom Candy-Chat plugins.
+These are Candy plugins that I am testing.
+
+
