@@ -1,0 +1,23 @@
+
+.rolecolors-role-visitor {}
+.rolecolors-role-participant {}
+.rolecolors-role-none {}
+
+.rolecolors-role-moderator {
+    font-weight: bold;
+    background-color: #EEF3E2;
+}
+
+.rolecolors-affiliation-owner {
+    background: #EBECE4;
+}
+
+.rolecolors-affiliation-admin {
+    background: #EEF3E2;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.rolecolors-affiliation-member {}
+.rolecolors-affiliation-outcast {}
+.rolecolors-affiliation-none {}
