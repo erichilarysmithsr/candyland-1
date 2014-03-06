@@ -1,0 +1,21 @@
+li.spark-invite {
+    padding: 5px;
+    background: #EEF3E2;
+    font-style: italic;
+}
+
+li.spark-invite-expired {
+    padding: 5px;
+    background: #FEF1E9;
+    font-style: italic;
+}
+
+li.spark-invite-accepted {
+    padding: 5px;
+    background: #ECF1EF;
+    font-style: italic;
+}
+
+li.spark-invite a {
+    text-decoration: underline;
+}
