@@ -27,8 +27,13 @@ Allows Candy users the ability to receive group chat invites from Spark.
 
 ## Screenshot
 ![Screenshot 1](screenshots/shot1.png)
+
 **Spark user invites a user from their current room.**
+
 ![Screenshot 2](screenshots/shot2.png)
+
 **Candy Chat user gets the invite and clicks on accept.**
+
 ![Screenshot 3](screenshots/shot3.png)
+
 **Candy Chat users is now joined to the room. The user did not have to type the password.**
