@@ -1,11 +1,15 @@
 # SparkRoomInvites
-Allows Candy users the ability to receive group chat invites from Spark.
+Allows Candy users the ability to receive group chat invites from Spark. 
 
+> Note: As of 2014-03-06 this requires the development branch of Candy. A new event named `candy:core:chat:message:other` was added in pull request [#236](https://github.com/candy-chat/candy/pull/236) which this plugin depends on.
+
+
+## Import
 
     <script type="text/javascript" src="candyland/spark-room-invites/candy.js"></script>
     <link rel="stylesheet" type="text/css" href="candyland/spark-room-invites/candy.css" />
 
-To bootstrap.
+## Bootstrap
 
     CandyShop.SparkRoomInvites.init({
       /* When true the plugin will automatically join the user to
@@ -19,4 +23,3 @@ To bootstrap.
       reapInterval: 5000
     });
 
-![SparkRoomInvites](screenshot.png)
