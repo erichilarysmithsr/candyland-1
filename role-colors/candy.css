@@ -1,23 +1,62 @@
 
-.rolecolors-role-visitor {}
-.rolecolors-role-participant {}
-.rolecolors-role-none {}
-
-.rolecolors-role-moderator {
-    font-weight: bold;
+/* XMPP MUC Role Background Color */
+.rc-role-color-moderator {
     background-color: #EEF3E2;
-}
-
-.rolecolors-affiliation-owner {
-    background: #EBECE4;
-}
-
-.rolecolors-affiliation-admin {
-    background: #EEF3E2;
-    font-style: italic;
     font-weight: bold;
 }
+.rc-role-color-none {}
+.rc-role-color-participant {}
+.rc-role-color-visitor {}
 
-.rolecolors-affiliation-member {}
-.rolecolors-affiliation-outcast {}
-.rolecolors-affiliation-none {}
+/* XMPP MUC Role Background Image */
+.rc-role-img-moderator {
+    background-image: url('/res/img/roster/affiliation-moderator.png');
+    background-repeat: no-repeat;
+    background-position:0px 3px;
+}
+.rc-role-img-none {}
+.rc-role-img-participant {}
+.rc-role-img-visitor {}
+
+/* XMPP MUC Affiliation Background Color */
+.rc-affiliation-color-owner {
+    background-color: #EBECE4;
+    font-weight: bold;
+}
+.rc-affiliation-color-admin {
+    background: #EBECE4;
+    font-weight: bold;
+}
+.rc-affiliation-color-member {}
+.rc-affiliation-color-outcast {}
+.rc-affiliation-color-none {}
+
+/* XMPP MUC Affiliation Background Image */
+.rc-affiliation-img-owner {
+    background-image: url('/res/img/roster/affiliation-owner.png');
+    background-repeat: no-repeat;
+    background-position:0px 3px;
+}
+.rc-affiliation-img-admin {
+    background-image: url('/res/img/roster/affiliation-owner.png');
+    background-repeat: no-repeat;
+    background-position:0px 3px;
+}
+.rc-affiliation-img-member {}
+.rc-affiliation-img-outcast {}
+.rc-affiliation-img-none {}
+
+/* Mentioned images. */
+.rc-mentioned-with-rights {
+    background-image: url('/res/img/favicon.png');
+    background-repeat: no-repeat;
+    background-position:0px 3px;
+    font-style: italic;
+}
+
+.rc-mentioned {
+    background-image: url('/res/img/action/subject.png');
+    background-repeat: no-repeat;
+    background-position:0px 3px;
+    font-style: italic;
+}

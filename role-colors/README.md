@@ -1,5 +1,5 @@
 # RoleColors
-Change the style of user messages based on their XMPP role and affiliation.
+Change the style of user messages based on their XMPP role and affiliation. Also adds an icon to the left of the nick name indicating if the message is from a role, affiliation or is targeted to `@nickname`.
 
 ## Import
 
@@ -12,18 +12,7 @@ Change the style of user messages based on their XMPP role and affiliation.
 
 ## CSS
 
-You can customize the look and feel of the users message based on their **role** and **affiliation**.
-
-    .rolecolors-role-visitor {}
-    .rolecolors-role-participant {}
-    .rolecolors-role-none {}
-    .rolecolors-role-moderator {}
-    .rolecolors-affiliation-owner {}
-    .rolecolors-affiliation-admin {}
-    .rolecolors-affiliation-member {}
-    .rolecolors-affiliation-outcast {}
-    .rolecolors-affiliation-none {}
-
+You can customize the look and feel of the users message based on their **role** and **affiliation**. 
 
 ## Screen Shots
 
