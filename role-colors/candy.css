@@ -1,7 +1,7 @@
 
 /* XMPP MUC Role Background Color */
 .rc-role-color-moderator {
-    background-color: #EEF3E2;
+    background-color: #d6dacb;
     font-weight: bold;
 }
 .rc-role-color-none {}
@@ -20,11 +20,11 @@
 
 /* XMPP MUC Affiliation Background Color */
 .rc-affiliation-color-owner {
-    background-color: #EBECE4;
+    background-color: #d6dacb;
     font-weight: bold;
 }
 .rc-affiliation-color-admin {
-    background: #EBECE4;
+    background: #d6dacb;
     font-weight: bold;
 }
 .rc-affiliation-color-member {}
